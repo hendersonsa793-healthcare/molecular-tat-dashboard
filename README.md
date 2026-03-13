@@ -1,4 +1,5 @@
-# molecular-tat-dashboard
+# Molecular Diagnostics Turnaround Time (TAT) Dashboard
+Excel Dashboard | Healthcare Analytics | Clinical Laboratory Data
 
 This project analyzes simulated molecular diagnostic laboratory workflow data to evaluate **turnaround time (TAT) performance** across testing platforms, hospital locations, and operational shifts.
 
