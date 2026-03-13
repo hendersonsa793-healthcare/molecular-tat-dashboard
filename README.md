@@ -1,54 +1,86 @@
 # molecular-tat-dashboard
-Molecular Diagnostics Turnaround Time Dashboard
 
-This project analyzes simulated molecular diagnostic laboratory workflow data to evaluate turnaround time (TAT) performance across testing platforms, hospital locations, and operational shifts.
+This project analyzes simulated molecular diagnostic laboratory workflow data to evaluate **turnaround time (TAT) performance** across testing platforms, hospital locations, and operational shifts.
 
 The dashboard was built in Excel to simulate the type of operational reporting used in clinical laboratories and healthcare analytics environments.
 
-Dashboard Preview
+---
 
-Key Metrics
-Metric	Value
-Average TAT	202 minutes
-Median TAT	167 minutes
-Maximum TAT	464 minutes
-Total Tests	199
-Dashboard Features
+## Dashboard Preview
 
-Interactive filtering using slicers
+![Dashboard](dashboard_preview.png)
 
-Turnaround time analysis by testing platform
+---
 
-Turnaround time comparison by hospital location
+## Key Metrics
 
-Turnaround time analysis by operational shift
+| Metric | Value |
+|------|------|
+| Average TAT | 202 minutes |
+| Median TAT | 167 minutes |
+| Maximum TAT | 464 minutes |
+| Total Test Volume | 199 |
 
-Workflow stage breakdown (Order → Collect → Receive → Result)
+---
 
-Tools Used
+## Dashboard Features
 
-Microsoft Excel
+- Interactive filtering using slicers
+- Turnaround time analysis by testing platform
+- Turnaround time comparison by hospital location
+- Turnaround time analysis by operational shift
+- Workflow stage breakdown (Order → Collect → Receive → Result)
 
-Pivot Tables
+---
 
-Pivot Charts
+## Tools Used
 
-Dashboard Design
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Dashboard Design
+- Healthcare Operational Metrics
 
-Healthcare Operational Metrics
+---
 
-Real-World Application
+## Analytical Approach
 
-Turnaround time analysis is an important operational metric in clinical laboratories. Dashboards like this help laboratory leadership identify workflow bottlenecks, evaluate testing performance, and monitor operational efficiency.
+The project workflow included:
 
-Future Enhancements
+1. Structuring a simulated laboratory dataset
+2. Calculating Total Turnaround Time (TAT)
+3. Building pivot tables to summarize operational metrics
+4. Creating charts to visualize performance trends
+5. Designing an interactive dashboard using slicers and KPI metrics
 
-Future versions of this analysis could include:
+---
 
-SQL-based data analysis
+## Real-World Application
 
-Python statistical modeling
+Turnaround time analysis is an important operational metric in **clinical laboratories and healthcare operations**. Dashboards like this help laboratory leadership:
 
-Power BI or Tableau dashboards
+- Monitor laboratory performance
+- Identify workflow delays
+- Evaluate testing platform efficiency
+- Track operational trends
 
-HL7 message workflow analysis
+This type of reporting is commonly used in **laboratory informatics, LIS systems, and healthcare analytics environments**.
+
+---
+
+## Future Enhancements
+
+Possible future improvements include:
+
+- SQL-based laboratory workflow analysis
+- Python statistical analysis of TAT data
+- Power BI or Tableau dashboard development
+- HL7 message workflow analysis
+
+---
+
+## Author
+
+Stephen Henderson  
+Medical Laboratory Scientist (MLS)  
+Interested in Healthcare Informatics, LIS Systems, and Clinical Data Analytics
