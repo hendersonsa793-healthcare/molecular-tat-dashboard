@@ -11,7 +11,15 @@ The dashboard was built in Excel to simulate the type of operational reporting u
 
 ![Dashboard](dashboard_preview.png)
 
----
+## Project Structure
+
+```
+molecular-tat-dashboard/
+│
+├── Molecular_TAT_Dashboard.xlsx   # Interactive Excel dashboard
+├── dashboard_preview.png          # Dashboard screenshot for README
+└── README.md                      # Project documentation
+```
 
 ## Key Metrics
 
