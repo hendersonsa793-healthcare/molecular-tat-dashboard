@@ -56,7 +56,7 @@ molecular-tat-dashboard/
 ├── powerbi-version/
 │ └── Molecular_TAT_Dashboard.pbix
 │
-├── images/
+├── Images/
 │ ├── powerbi_dashboard_full.png
 │ ├── powerbi_dashboard_filtered.png
 │ ├── powerbi_findings.png
