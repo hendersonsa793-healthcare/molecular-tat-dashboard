@@ -46,7 +46,7 @@ Originally developed as an Excel dashboard, this project has been **rebuilt in P
 
 ## 📁 Project Structure
 
----
+```
 
 molecular-tat-dashboard/
 │
@@ -63,6 +63,8 @@ molecular-tat-dashboard/
 │ └── powerbi_recommendations.png
 │
 └── README.md
+
+```
 
 ---
 
