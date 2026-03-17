@@ -1,95 +1,147 @@
-# Molecular Diagnostics Turnaround Time (TAT) Dashboard
-Excel Dashboard | Healthcare Analytics | Clinical Laboratory Data
+# Molecular Diagnostics Turnaround Time (TAT) Dashboard  
+**Excel → Power BI Enhancement | Healthcare Analytics | Clinical Laboratory Data**
 
-This project analyzes simulated molecular diagnostic laboratory workflow data to evaluate **turnaround time (TAT) performance** across testing platforms, hospital locations, and operational shifts.
+This project analyzes simulated molecular diagnostic laboratory workflow data to evaluate **turnaround time (TAT) performance** across testing platforms, hospital locations, and operational workflows.
 
-The dashboard was built in Excel to simulate the type of operational reporting used in clinical laboratories and healthcare analytics environments.
+Originally developed as an Excel dashboard, this project has been **rebuilt in Power BI** to improve interactivity, visualization, and analytical depth.
 
 ---
 
-## Dashboard Preview
+## 🔄 Project Evolution
 
-![Dashboard](dashboard_preview.png)
+### Version 1 – Excel Dashboard
+- Pivot tables and charts  
+- Static KPI tracking  
+- Slicer-based filtering  
 
-## Project Structure
+### Version 2 – Power BI Dashboard (Current)
+- Fully interactive dashboard with dynamic filtering  
+- KPI calculations using DAX (formatted in hours and minutes)  
+- Improved layout and visual design  
+- Integrated operational insights and workflow recommendations  
 
-```
+---
+
+## 📊 Dashboard Preview
+
+### Power BI Dashboard
+![Full Dashboard](images/powerbi_dashboard_full.png)
+
+---
+
+### 🔄 Interactive Filtering Example
+![Filtered Dashboard](images/powerbi_dashboard_filtered.png)
+
+---
+
+### 🔍 Key Operational Insights
+![Findings](images/powerbi_findings.png)
+
+---
+
+### ⚙️ Workflow Improvement Recommendations
+![Improvements](images/powerbi_recommendations.png)
+
+---
+
+## 📁 Project Structure
+
 molecular-tat-dashboard/
 │
-├── Molecular_TAT_Dashboard.xlsx   # Interactive Excel dashboard
-├── dashboard_preview.png          # Dashboard screenshot for README
-└── README.md                      # Project documentation
-```
+├── excel-version/
+│ └── Molecular_TAT_Dashboard.xlsx
+│
+├── powerbi-version/
+│ └── Molecular_TAT_Dashboard.pbix
+│
+├── images/
+│ ├── powerbi_dashboard_full.png
+│ ├── powerbi_dashboard_filtered.png
+│ ├── powerbi_findings.png
+│ └── powerbi_recommendations.png
+│
+└── README.md
+---
 
-## Key Metrics
+## 📈 Key Metrics (Power BI Version)
 
 | Metric | Value |
 |------|------|
-| Average TAT | 202 minutes |
-| Median TAT | 167 minutes |
-| Maximum TAT | 464 minutes |
-| Total Test Volume | 199 |
+| Average TAT | 3h 22m |
+| Median TAT | 2h 47m |
+| Maximum TAT | 7h 44m |
+| Total Tests | 199 |
 
 ---
 
-## Dashboard Features
+## 📊 Dashboard Features
 
-- Interactive filtering using slicers
-- Turnaround time analysis by testing platform
-- Turnaround time comparison by hospital location
-- Turnaround time analysis by operational shift
-- Workflow stage breakdown (Order → Collect → Receive → Result)
-
----
-
-## Tools Used
-
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Dashboard Design
-- Healthcare Operational Metrics
+- KPI tracking (Average, Median, Max TAT, Total Tests)  
+- Turnaround time analysis by platform, location, and test type  
+- Test volume distribution  
+- Interactive filtering (location, platform, test type, shift)  
+- Operational findings and workflow improvement recommendations  
 
 ---
 
-## Analytical Approach
+## 🛠️ Tools Used
+
+- **Power BI** (dashboard development, data modeling)  
+- **DAX** (custom KPI calculations and formatting)  
+- **Microsoft Excel** (initial dashboard and data preparation)  
+
+---
+
+## 🧠 Analytical Approach
 
 The project workflow included:
 
-1. Structuring a simulated laboratory dataset
-2. Calculating Total Turnaround Time (TAT)
-3. Building pivot tables to summarize operational metrics
-4. Creating charts to visualize performance trends
-5. Designing an interactive dashboard using slicers and KPI metrics
+1. Structuring a simulated laboratory dataset  
+2. Calculating Total Turnaround Time (TAT)  
+3. Building initial Excel-based dashboard  
+4. Rebuilding the project in Power BI for enhanced interactivity  
+5. Implementing DAX measures for KPI calculations and formatting  
+6. Designing an interactive dashboard for operational insight  
 
 ---
 
-## Real-World Application
+## 🏥 Real-World Application
 
-Turnaround time analysis is an important operational metric in **clinical laboratories and healthcare operations**. Dashboards like this help laboratory leadership:
+Turnaround time analysis is an important operational metric in **clinical laboratories and healthcare operations**.
 
-- Monitor laboratory performance
-- Identify workflow delays
-- Evaluate testing platform efficiency
-- Track operational trends
+Dashboards like this help laboratory leadership:
 
-This type of reporting is commonly used in **laboratory informatics, LIS systems, and healthcare analytics environments**.
+- Monitor laboratory performance  
+- Identify workflow delays  
+- Evaluate testing platform efficiency  
+- Track operational trends  
+
+This type of reporting is commonly used in:
+- **Laboratory Informatics**  
+- **LIS Systems**  
+- **Healthcare Analytics Environments**  
 
 ---
 
-## Future Enhancements
+## 🔮 Future Enhancements
 
 Possible future improvements include:
 
-- SQL-based laboratory workflow analysis
-- Python statistical analysis of TAT data
-- Power BI or Tableau dashboard development
-- HL7 message workflow analysis
+- SQL-based laboratory workflow analysis  
+- Python-based statistical analysis of TAT data  
+- Predictive modeling for turnaround time optimization  
+- HL7 message workflow analysis  
 
 ---
 
-## Author
+## ⚠️ Disclaimer
 
-Stephen Henderson  
+This project uses simulated data and a fictional healthcare organization for demonstration purposes only.
+
+---
+
+## 👤 Author
+
+**Stephen Henderson**  
 Medical Laboratory Scientist (MLS)  
-Interested in Healthcare Informatics, LIS Systems, and Clinical Data Analytics
+Interested in Healthcare Informatics, LIS Systems, and Clinical Data Analytics  
