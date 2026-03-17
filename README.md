@@ -25,22 +25,22 @@ Originally developed as an Excel dashboard, this project has been **rebuilt in P
 ## 📊 Dashboard Preview
 
 ### Power BI Dashboard
-![Full Dashboard](images/powerbi_dashboard_full.png)
+![Full Dashboard](Images/powerbi_dashboard_full.png)
 
 ---
 
 ### 🔄 Interactive Filtering Example
-![Filtered Dashboard](images/powerbi_dashboard_filtered.png)
+![Filtered Dashboard](Images/powerbi_dashboard_filtered.png)
 
 ---
 
 ### 🔍 Key Operational Insights
-![Findings](images/powerbi_findings.png)
+![Findings](Images/powerbi_findings.png)
 
 ---
 
 ### ⚙️ Workflow Improvement Recommendations
-![Improvements](images/powerbi_recommendations.png)
+![Improvements](Images/powerbi_recommendations.png)
 
 ---
 
