@@ -149,4 +149,4 @@ This project uses simulated data and a fictional healthcare organization for dem
 
 **Stephen Henderson**  
 Medical Laboratory Scientist (MLS)  
-Interested in Healthcare Informatics, LIS Systems, and Clinical Data Analytics  
+Interested in Healthcare Epic Beaker, LIS Systems, and Clinical Data Analytics  
